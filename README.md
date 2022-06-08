@@ -1,11 +1,11 @@
 Cucumber Setup
 
 
-1
+1,
 npm install —save -dev cypress-cucumber-preprocessor
 
 
-2
+2,
 cypress.json
 
      add in the same bracket as baseURL
@@ -14,7 +14,7 @@ cypress.json
     "testFiles": "**/*.feature"
     }
 
-3  
+3, 
  package.json
 
     after devDependencies add ,
@@ -23,7 +23,7 @@ cypress.json
     "nonGlobalStepDefinitions": true
     }
 
-4
+4,
 
     Cypress/plugins/index.js
 
@@ -33,7 +33,7 @@ cypress.json
     on('file:preprocessor', cucumber())
     }
 
-5
+5,
 integration folder
 
     //create a new file  giveItProperName.feature
@@ -52,7 +52,7 @@ integration folder
     And ………….
     Then …………..
 
-6
+6,
 
     create a new folder integration /''Pizza''  and inside create a file, this case call it pizza.js
 
