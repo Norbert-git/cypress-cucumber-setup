@@ -1,4 +1,4 @@
-###Cucumber Setup
+Cucumber Setup
 1
 npm install —save -dev cypress-cucumber-preprocessor
 
