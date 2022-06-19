@@ -24,8 +24,8 @@ cypress.json
     }
 
 4,
+  Cypress/plugins/index.js
 
-    Cypress/plugins/index.js
 
     const cucumber = require('cypress-cucumber-preprocessor').default
 
